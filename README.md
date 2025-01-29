@@ -6,6 +6,14 @@ This project leverages TensorFlow and OpenCV to build a neural network capable o
 
 The program processes the GTSRB dataset, which is organized into directories for each traffic sign category (0–42). The main file, `traffic.py`, implements a pipeline to load, preprocess, and train a neural network for classification. 
 
+The German Traffic Sign Recognition Benchmark (GTSRB) is a widely used dataset for training and evaluating traffic sign classification models. It contains over 50,000 images of German road signs across 43 categories, captured under various lighting conditions, angles, and backgrounds. The dataset is structured into labeled directories, making it ideal for supervised learning tasks in computer vision and deep learning. GTSRB serves as a benchmark for developing and testing neural networks in real-world traffic sign recognition applications.
+
+### Some examples:
+
+- ![00000_00000.png](00000_00000.png)
+- ![00002_00017.png](00002_00017.png)
+- ![00003_00026.png](00003_00026.png)
+- ![00004_00002.png](00004_00002.png)
 
 ### Key Functions
 1. **`load_data`**:  
